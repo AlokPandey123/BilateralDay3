@@ -1,0 +1,38 @@
+
+.mainContainer{
+   min-height: 85vh;
+    width: 100%;
+    display: flex;
+}
+
+.leftContainer{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    
+}
+.leftContainer h1{
+    font-size: 45px;
+    padding: 30px;
+}
+.leftContainer p{
+    width: 50%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: auto;
+}
+.rightContainer{
+    width: 50%;
+    margin: auto;
+    
+}
+#slider img{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    
+}
+

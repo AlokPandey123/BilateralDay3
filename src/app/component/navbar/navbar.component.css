@@ -1,0 +1,57 @@
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(220, 219, 217);
+}
+
+nav div ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div ul li{
+    list-style: none;
+    margin: 0px 20px 2px 20px;
+}
+nav div ul li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.liContainer{
+    margin-right: 3%;
+}
+
+nav div ul li a:hover{
+    background: rgb(115, 108, 108);
+   
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+.logo1{
+    display: flex;
+    margin: 10px;
+    
+}
+.logo1 h1{
+    padding: 10px;
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.logo1 img{
+    width: 12%;
+    margin-left: 5%;
+}
+
+
+
